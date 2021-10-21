@@ -4,6 +4,7 @@
     "api": "apps/api",
     "client": "apps/client",
     "client-e2e": "apps/client-e2e",
-    "shared-models": "libs/shared/models"
+    "shared-models": "libs/shared/models",
+    "shared-ui-layout": "libs/shared/ui/layout"
   }
 }

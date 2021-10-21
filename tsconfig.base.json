@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@angular-workshop/shared/models": ["libs/shared/models/src/index.ts"]
+      "@angular-workshop/shared/models": ["libs/shared/models/src/index.ts"],
+      "@angular-workshop/shared/ui/layout": [
+        "libs/shared/ui/layout/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
