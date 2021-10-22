@@ -23,7 +23,7 @@
     </div>
    ```
 
-3. **Dodaj `RouterModule` do tablicy importów modułu `ClientShellUiSidenavModule` w katalogu `libs/client/shell/ui/sidenav/src/lib`**
+3. **Dodaj `RouterModule` do tablicy `imports` modułu `ClientShellUiSidenavModule` w katalogu `libs/client/shell/ui/sidenav/src/lib`**
 
    ```typescript
    imports: [
@@ -50,7 +50,7 @@
    nx workspace-generator ui-library layout --componentName=layout --directory=client/shell/ui
    ```
 
-7. **Dodaj `SharedUiLayoutModule, ClientShellUiNavbarModule, ClientShellUiSidenavModule` do tablicy importów modułu `ClientShellUiLayoutModule` w katalogu `libs/client/shell/ui/layout/src/lib`**
+7. **Dodaj `SharedUiLayoutModule, ClientShellUiNavbarModule, ClientShellUiSidenavModule` do tablicy `imports` modułu `ClientShellUiLayoutModule` w katalogu `libs/client/shell/ui/layout/src/lib`**
 
     ```typescript
     imports: [
@@ -87,7 +87,7 @@
     ]
     ```
 
-11. **Dodaj `RouterModule, ClientShellFeatureModule` do tablicy importów modułu `AppModule` w katalogu `apps\client\src\app`**
+11. **Dodaj `RouterModule, ClientShellFeatureModule` do tablicy `imports` modułu `AppModule` w katalogu `apps\client\src\app`**
 
     ```typescript
     imports: [

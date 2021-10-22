@@ -4,6 +4,7 @@
     "api": "apps/api",
     "client": "apps/client",
     "client-e2e": "apps/client-e2e",
+    "client-orders-feature-orders": "libs/client/orders/feature/orders",
     "client-shell-feature": "libs/client/shell/feature",
     "client-shell-ui-layout": "libs/client/shell/ui/layout",
     "client-shell-ui-navbar": "libs/client/shell/ui/navbar",

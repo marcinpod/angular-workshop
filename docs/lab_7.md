@@ -20,7 +20,7 @@
     export class ClientShellFeatureRoutingModule {}
    ```
 
-3. **Dodaj `ClientShellFeatureRoutingModule` do tablicy importów w module `ClientShellFeatureModule` w katalogu `libs/client/shell/feature/src/lib`**
+3. **Dodaj `ClientShellFeatureRoutingModule` do tablicy `imports` w module `ClientShellFeatureModule` w katalogu `libs/client/shell/feature/src/lib`**
 
    ```typescript
    imports: [
