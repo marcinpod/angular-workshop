@@ -24,7 +24,7 @@
    </div>
    ```
 
-3. **Dodaj `RouterModule` w tablicy importów modułu `SharedUiLayoutModule` w katalogu `libs/shared/ui/layout/src/lib`**
+3. **Dodaj `RouterModule` do tablicy importów modułu `SharedUiLayoutModule` w katalogu `libs/shared/ui/layout/src/lib`**
 
    ```typescript
    imports: [

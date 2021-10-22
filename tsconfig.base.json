@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@angular-workshop/client/shell/feature": [
+        "libs/client/shell/feature/src/index.ts"
+      ],
       "@angular-workshop/shared/models": ["libs/shared/models/src/index.ts"],
       "@angular-workshop/shared/ui/layout": [
         "libs/shared/ui/layout/src/index.ts"
