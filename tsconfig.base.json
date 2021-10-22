@@ -21,6 +21,9 @@
       "@angular-workshop/client/orders/feature/shell": [
         "libs/client/orders/feature/shell/src/index.ts"
       ],
+      "@angular-workshop/client/orders/ui/orders-filter": [
+        "libs/client/orders/ui/orders-filter/src/index.ts"
+      ],
       "@angular-workshop/client/shell/feature": [
         "libs/client/shell/feature/src/index.ts"
       ],
