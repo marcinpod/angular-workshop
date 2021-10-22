@@ -7,6 +7,7 @@
     "client-orders-feature-orders": "libs/client/orders/feature/orders",
     "client-orders-feature-shell": "libs/client/orders/feature/shell",
     "client-orders-ui-orders-filter": "libs/client/orders/ui/orders-filter",
+    "client-orders-ui-orders-list": "libs/client/orders/ui/orders-list",
     "client-shell-feature": "libs/client/shell/feature",
     "client-shell-ui-layout": "libs/client/shell/ui/layout",
     "client-shell-ui-navbar": "libs/client/shell/ui/navbar",

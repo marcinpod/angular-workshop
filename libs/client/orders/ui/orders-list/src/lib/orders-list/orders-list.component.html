@@ -1,0 +1,24 @@
+<section class='client-orders-list' *ngIf='orders?.length; else emptyList'>
+  <ng-container *ngFor='let order of orders'>
+    <div class='order'>
+      <div class='order-info'>
+        <div class='order-info-row'>
+          <p class='order-number'>Numer zamówienia: {{ order.orderNumber }}</p>
+          <span class='order-status'>{{ order.status }}</span>
+        </div>
+        <p class='order-comment'>Uwagi: {{ order.comment }}</p>
+        <p class='order-date'>Data: {{ order.createdAt }}</p>
+      </div>
+      <div class='products'>
+        <shared-ui-products-list [products]='order.products'></shared-ui-products-list>
+      </div>
+      <div class='total'>
+        <p class='text'>Razem: {{ order.total }}</p>
+      </div>
+    </div>
+  </ng-container>
+</section>
+
+<ng-template #emptyList>
+  <h3 class='header h3'>Brak zamówień</h3>
+</ng-template>

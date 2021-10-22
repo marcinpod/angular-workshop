@@ -91,7 +91,7 @@
 8. **Dodaj komponent `OrdersFilterComponent` do widoku w pliku `orders-page.component.html` w katalogu `libs\client\orders\feature\orders\src\lib\orders-page`**
 
     ```html
-    <div class='client-order-page-navbar-wrapper'>
+    <div class='client-order-page-navbar-wrapper mb-24'>
       <h2 class='header h2'>Lista zamówień</h2>
       
       <client-orders-ui-orders-filter></client-orders-ui-orders-filter>

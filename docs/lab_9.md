@@ -17,7 +17,7 @@
 3. **Uzupełnij plik `orders-page.component.html` w katalogu `libs\client\orders\feature\new-order\src\lib\new-order-page`**
 
     ```html
-    <div class='client-order-page-navbar-wrapper'>
+    <div class='client-order-page-navbar-wrapper mb-24'>
       <h2 class='header h2'>Lista zamówień</h2>
       <a class='link' routerLink='/new-order'>Nowe zamówienie</a>
     </div>
