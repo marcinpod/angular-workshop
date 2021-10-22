@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@angular-workshop/client/orders/data-access": [
+        "libs/client/orders/data-access/src/index.ts"
+      ],
       "@angular-workshop/client/orders/feature/orders": [
         "libs/client/orders/feature/orders/src/index.ts"
       ],
