@@ -30,7 +30,7 @@
 4. **Utwórz bibliotekę client-orders-data-access**
 
    ```shell
-   nx g @nrwl/workspace:library data-access --directory=client/orders
+   nx g @nrwl/workspace:library data-access --strict=false --directory=client/orders
    ```
 
 5. **Usuń export funkcji `clientOrdersDataAccess` w pliku `index.ts` w katalogu `libs\client\orders\data-access\src`**
