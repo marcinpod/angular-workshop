@@ -18,6 +18,15 @@
       "@angular-workshop/client/shell/feature": [
         "libs/client/shell/feature/src/index.ts"
       ],
+      "@angular-workshop/client/shell/ui/layout": [
+        "libs/client/shell/ui/layout/src/index.ts"
+      ],
+      "@angular-workshop/client/shell/ui/navbar": [
+        "libs/client/shell/ui/navbar/src/index.ts"
+      ],
+      "@angular-workshop/client/shell/ui/sidenav": [
+        "libs/client/shell/ui/sidenav/src/index.ts"
+      ],
       "@angular-workshop/shared/models": ["libs/shared/models/src/index.ts"],
       "@angular-workshop/shared/ui/layout": [
         "libs/shared/ui/layout/src/index.ts"

@@ -5,6 +5,9 @@
     "client": "apps/client",
     "client-e2e": "apps/client-e2e",
     "client-shell-feature": "libs/client/shell/feature",
+    "client-shell-ui-layout": "libs/client/shell/ui/layout",
+    "client-shell-ui-navbar": "libs/client/shell/ui/navbar",
+    "client-shell-ui-sidenav": "libs/client/shell/ui/sidenav",
     "shared-models": "libs/shared/models",
     "shared-ui-layout": "libs/shared/ui/layout",
     "shared-ui-products-list": "libs/shared/ui/products-list"

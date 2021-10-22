@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/client/shell/ui/sidenav",
+  "sourceRoot": "libs/client/shell/ui/sidenav/src",
+  "prefix": "client-shell-ui",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/client/shell/ui/sidenav"],
+      "options": {
+        "jestConfig": "libs/client/shell/ui/sidenav/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/client/shell/ui/sidenav/src/**/*.ts",
+          "libs/client/shell/ui/sidenav/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
