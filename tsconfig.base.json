@@ -18,6 +18,9 @@
       "@angular-workshop/shared/models": ["libs/shared/models/src/index.ts"],
       "@angular-workshop/shared/ui/layout": [
         "libs/shared/ui/layout/src/index.ts"
+      ],
+      "@angular-workshop/shared/ui/products-list": [
+        "libs/shared/ui/products-list/src/index.ts"
       ]
     }
   },
