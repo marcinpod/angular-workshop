@@ -5,7 +5,13 @@ import { LayoutComponent } from '@angular-workshop/client/shell/ui/layout';
 const routes: Route[] = [
   {
     path: '',
-    component: LayoutComponent
+    component: LayoutComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: async () => (await import('@angular-workshop/client/orders/feature/shell')).ClientOrdersFeatureShellModule
+      }
+    ]
   }
 ]
 

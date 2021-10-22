@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/client/orders/feature/shell",
+  "sourceRoot": "libs/client/orders/feature/shell/src",
+  "prefix": "angular-workshop",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/client/orders/feature/shell"],
+      "options": {
+        "jestConfig": "libs/client/orders/feature/shell/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/client/orders/feature/shell/src/**/*.ts",
+          "libs/client/orders/feature/shell/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

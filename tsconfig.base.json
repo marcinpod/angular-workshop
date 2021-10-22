@@ -18,6 +18,9 @@
       "@angular-workshop/client/orders/feature/orders": [
         "libs/client/orders/feature/orders/src/index.ts"
       ],
+      "@angular-workshop/client/orders/feature/shell": [
+        "libs/client/orders/feature/shell/src/index.ts"
+      ],
       "@angular-workshop/client/shell/feature": [
         "libs/client/shell/feature/src/index.ts"
       ],
