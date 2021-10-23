@@ -90,5 +90,5 @@
       }
     }
   },
-  "tags": []
+  "tags": ["scope:client", "type:app"]
 }
