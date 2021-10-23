@@ -1,9 +1,18 @@
 <div class='client-order-page-navbar-wrapper mb-24'>
   <h2 class='header h2'>Lista zamówień</h2>
 
-  <client-orders-ui-orders-filter></client-orders-ui-orders-filter>
+  <client-orders-ui-orders-filter [query]='searchQuery$ | async'
+                                  (filter)='handleFilters($event)'
+  >
+  </client-orders-ui-orders-filter>
 
   <a class='link' routerLink='/new-order'>Nowe zamówienie</a>
 </div>
 
-<client-orders-ui-orders-list></client-orders-ui-orders-list>
+<ng-container *ngIf='isLoading$ | async; else content'>
+  loading...
+</ng-container>
+
+<ng-template #content>
+  <client-orders-ui-orders-list [orders]='orders$ | async'></client-orders-ui-orders-list>
+</ng-template>
