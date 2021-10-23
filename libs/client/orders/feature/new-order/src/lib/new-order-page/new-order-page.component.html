@@ -1,0 +1,44 @@
+<h2 class='header h2 mb-24'>Nowe zamówienie</h2>
+
+<div class='client-new-order-wrapper'>
+  <form class='form' [formGroup]='form' (ngSubmit)='handleSubmit()'>
+    <fieldset class='fieldset'>
+      <legend class='legend'>Informacje o zamówieniu</legend>
+
+      <div class='form-control'>
+        <label class='label' for='nr'>Uwagi</label>
+        <input class='input' id='nr' type='text' formControlName='comment'>
+      </div>
+
+      <div class='form-control'>
+        <label class='label' for='data'>Data</label>
+        <input class='input' id='data' type='text' formControlName='data'>
+      </div>
+
+    </fieldset>
+
+    <fieldset class='fieldset'>
+      <legend class='legend'>
+        Produkty
+        <button type='button' class='button' (click)='addProduct()'>Dodaj produkt</button></legend>
+      <ul class='list'>
+        <li class='list-item' *ngFor='let group of products; let i = index'>
+          <section [formGroup]='group' class='form-array-group'>
+
+            <div class='form-control'>
+              <label class='label' [for]="'name' + i">Produkt</label>
+              <input class='input' [id]="'name' + i" type='text' formControlName='name'>
+            </div>
+
+            <div class='form-control'>
+              <label class='label' [for]="'price' + i">Cena</label>
+              <input class='input' [id]="'price' + i" type='text' formControlName='price'>
+            </div>
+          </section>
+        </li>
+      </ul>
+    </fieldset>
+
+    <button type='submit' class='button submit-button'>Zapisz</button>
+  </form>
+</div>

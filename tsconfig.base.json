@@ -18,6 +18,9 @@
       "@angular-workshop/client/orders/data-access": [
         "libs/client/orders/data-access/src/index.ts"
       ],
+      "@angular-workshop/client/orders/feature/new-order": [
+        "libs/client/orders/feature/new-order/src/index.ts"
+      ],
       "@angular-workshop/client/orders/feature/orders": [
         "libs/client/orders/feature/orders/src/index.ts"
       ],

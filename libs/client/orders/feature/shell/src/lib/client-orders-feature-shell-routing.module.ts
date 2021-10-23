@@ -5,6 +5,10 @@ const routes: Route[] = [
   {
     path: '',
     loadChildren: async () => (await import('@angular-workshop/client/orders/feature/orders')).ClientOrdersFeatureOrdersModule
+  },
+  {
+    path: 'new-order',
+    loadChildren: async () => (await import('@angular-workshop/client/orders/feature/new-order')).ClientOrdersFeatureNewOrderModule
   }
 ]
 
