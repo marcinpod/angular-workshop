@@ -15,6 +15,7 @@
     "client-shell-ui-navbar": "libs/client/shell/ui/navbar",
     "client-shell-ui-sidenav": "libs/client/shell/ui/sidenav",
     "shared-models": "libs/shared/models",
+    "shared-portal": "libs/shared/portal",
     "shared-ui-layout": "libs/shared/ui/layout",
     "shared-ui-products-list": "libs/shared/ui/products-list"
   }

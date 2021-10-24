@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/shared/portal",
+  "sourceRoot": "libs/shared/portal/src",
+  "prefix": "angular-workshop",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/portal"],
+      "options": {
+        "jestConfig": "libs/shared/portal/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/portal/src/**/*.ts",
+          "libs/shared/portal/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

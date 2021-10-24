@@ -1,4 +1,4 @@
-<div class='client-order-page-navbar-wrapper mb-24'>
+<div class='client-order-page-navbar-wrapper' *portalAttachTo="'navbar'">
   <h2 class='header h2'>Lista zamówień</h2>
 
   <client-orders-ui-orders-filter [query]='searchQuery$ | async'
