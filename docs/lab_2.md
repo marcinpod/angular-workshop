@@ -37,3 +37,6 @@
    export * from './lib/product.dto';
    export * from './lib/order.dto';
    ```
+<br>
+
+[➡️ Next lab ➡️](./lab3.md)

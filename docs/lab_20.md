@@ -1,4 +1,4 @@
-# 💻 Lab 18 - Graf zależności, tagi
+# 💻 Lab 20 - Graf zależności, tagi
 
 ## 🏋️‍♀️ Lista kroków:
 
