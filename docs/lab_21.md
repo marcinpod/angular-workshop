@@ -37,3 +37,6 @@
     ```shell
     nx affected:test --uncommitted
     ```
+<br>
+
+[➡️ Next lab ➡️](./lab_22.md)

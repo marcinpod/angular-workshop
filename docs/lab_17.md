@@ -47,3 +47,6 @@
     ```typescript
     export * from './lib/orders-selector';
     ```
+<br>
+
+[➡️ Next lab ➡️](./lab_18.md)

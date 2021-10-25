@@ -52,4 +52,6 @@
     ```shell
     nx run-many --target=lint --all
     ```
+<br>
 
+[➡️ Next lab ➡️](./lab_21.md)

@@ -40,3 +40,6 @@
     ```typescript
     export * from './lib/orders-effect';
     ```
+<br>
+
+[➡️ Next lab ➡️](./lab_17.md)

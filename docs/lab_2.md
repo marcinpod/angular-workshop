@@ -39,4 +39,4 @@
    ```
 <br>
 
-[➡️ Next lab ➡️](./lab3.md)
+[➡️ Next lab ➡️](./lab_3.md)

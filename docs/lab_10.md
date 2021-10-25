@@ -54,3 +54,6 @@
     ```shell
     nx serve client
     ```
+<br>
+
+[➡️ Next lab ➡️](./lab_11.md)

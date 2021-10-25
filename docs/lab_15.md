@@ -63,3 +63,6 @@
     ```typescript
     export * from './lib/orders-reducer';
     ```
+<br>
+
+[➡️ Next lab ➡️](./lab_16.md)

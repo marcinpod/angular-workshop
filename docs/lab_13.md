@@ -37,3 +37,7 @@
 
 
 6. **Usuń pliki `client-orders-data-access.spec.ts`, `client-orders-data-access.ts` w katalogu `libs\client\orders\data-access\src\lib`**
+
+<br>
+
+[➡️ Next lab ➡️](./lab_14.md)

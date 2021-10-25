@@ -39,3 +39,6 @@
       RouterModule
     ]
     ```
+<br>
+
+[➡️ Next lab ➡️](./lab_10.md)

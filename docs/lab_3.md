@@ -69,3 +69,6 @@
    ```shell
    nx serve api
    ```
+<br>
+
+[➡️ Next lab ➡️](./lab_4.md)

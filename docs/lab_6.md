@@ -464,3 +464,6 @@
    ```shell
    nx storybook shared-ui-products-list
    ```
+<br>
+
+[➡️ Next lab ➡️](./lab_7.md)

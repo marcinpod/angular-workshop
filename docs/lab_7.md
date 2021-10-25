@@ -28,3 +28,6 @@
     ClientShellFeatureRoutingModule,
    ]
    ```
+<br>
+
+[➡️ Next lab ➡️](./lab_8.md)
