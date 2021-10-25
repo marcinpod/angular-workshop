@@ -14,7 +14,46 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-workshop/client/orders/data-access": [
+        "libs/client/orders/data-access/src/index.ts"
+      ],
+      "@angular-workshop/client/orders/feature/new-order": [
+        "libs/client/orders/feature/new-order/src/index.ts"
+      ],
+      "@angular-workshop/client/orders/feature/orders": [
+        "libs/client/orders/feature/orders/src/index.ts"
+      ],
+      "@angular-workshop/client/orders/feature/shell": [
+        "libs/client/orders/feature/shell/src/index.ts"
+      ],
+      "@angular-workshop/client/orders/ui/orders-filter": [
+        "libs/client/orders/ui/orders-filter/src/index.ts"
+      ],
+      "@angular-workshop/client/orders/ui/orders-list": [
+        "libs/client/orders/ui/orders-list/src/index.ts"
+      ],
+      "@angular-workshop/client/shell/feature": [
+        "libs/client/shell/feature/src/index.ts"
+      ],
+      "@angular-workshop/client/shell/ui/layout": [
+        "libs/client/shell/ui/layout/src/index.ts"
+      ],
+      "@angular-workshop/client/shell/ui/navbar": [
+        "libs/client/shell/ui/navbar/src/index.ts"
+      ],
+      "@angular-workshop/client/shell/ui/sidenav": [
+        "libs/client/shell/ui/sidenav/src/index.ts"
+      ],
+      "@angular-workshop/shared/models": ["libs/shared/models/src/index.ts"],
+      "@angular-workshop/shared/portal": ["libs/shared/portal/src/index.ts"],
+      "@angular-workshop/shared/ui/layout": [
+        "libs/shared/ui/layout/src/index.ts"
+      ],
+      "@angular-workshop/shared/ui/products-list": [
+        "libs/shared/ui/products-list/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/client/orders/ui/orders-filter",
+  "sourceRoot": "libs/client/orders/ui/orders-filter/src",
+  "prefix": "client-orders-ui",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/client/orders/ui/orders-filter"],
+      "options": {
+        "jestConfig": "libs/client/orders/ui/orders-filter/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/client/orders/ui/orders-filter/src/**/*.ts",
+          "libs/client/orders/ui/orders-filter/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

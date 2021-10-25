@@ -1,0 +1,11 @@
+<div class='shared-layout'>
+  <header class='header'>
+    <ng-content select='[slot=navbar]'></ng-content>
+  </header>
+  <nav class='nav'>
+    <ng-content select='[slot=sidenav]'></ng-content>
+  </nav>
+  <main class='main'>
+    <router-outlet></router-outlet>
+  </main>
+</div>

@@ -37,3 +37,6 @@
    ```shell
    nx g @nrwl/angular:application client --strict=false --routing=false --style=scss --backendProject=api
    ```
+<br>
+
+[➡️ Next lab ➡️](./lab_2.md)

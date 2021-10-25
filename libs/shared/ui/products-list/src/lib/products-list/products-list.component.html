@@ -1,0 +1,15 @@
+<div class='shared-products-list' *ngIf='!isLoading; else loading'>
+  <ng-container *ngFor='let product of products'>
+    <div class='product'>
+      <div class='product-col'>
+        <img class='product-image' [src]='product.imageUrl' alt=''>
+        <span class='product-name'>{{ product.name }}</span>
+      </div>
+      <span class='product-price'> {{ product.price }} </span>
+    </div>
+  </ng-container>
+</div>
+
+<ng-template #loading>
+  loading...
+</ng-template>
